@@ -391,3 +391,10 @@ export default {
   name: "Monitor",
 };
 </script>
+
+<style scoped>
+svg {
+  height: 70vh;
+  margin-top: 8rem;
+}
+</style>

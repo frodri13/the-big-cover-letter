@@ -1,22 +1,19 @@
 <template>
   <Header />
-  <Phone />
-  <Monitor />
+  <Body />
   <Footer />
 </template>
 
 <script>
+import Body from "./components/Body.vue";
 import Header from "./components/Header.vue";
-import Phone from "./components/Phone.vue";
-import Monitor from "./components/Monitor.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Phone,
-    Monitor,
     Header,
+    Body,
     Footer,
   },
 };

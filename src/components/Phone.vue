@@ -1,7 +1,7 @@
 <template>
   <svg
     width="738"
-    height="730"
+    height="729"
     viewBox="0 0 738 730"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -257,3 +257,10 @@ export default {
   name: "Phone",
 };
 </script>
+
+<style scoped>
+svg {
+  margin-top: 3rem;
+  height: 80vh;
+}
+</style>

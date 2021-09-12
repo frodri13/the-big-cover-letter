@@ -14,7 +14,7 @@ export default {
 h1 {
   float: right;
   margin: 2rem;
-  margin-right: 20rem;
+  margin-right: 25rem;
   font-size: 5rem;
   background: linear-gradient(to left, #38a4d3, #6c63ff);
   -webkit-text-fill-color: transparent;
