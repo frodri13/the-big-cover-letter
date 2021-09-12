@@ -2,12 +2,14 @@
   <Header />
   <Phone />
   <Monitor />
+  <Footer />
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Phone from "./components/Phone.vue";
 import Monitor from "./components/Monitor.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -15,6 +17,7 @@ export default {
     Phone,
     Monitor,
     Header,
+    Footer,
   },
 };
 </script>
