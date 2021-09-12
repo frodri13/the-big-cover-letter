@@ -9,3 +9,12 @@ export default {
   name: "Header",
 };
 </script>
+
+<style scoped>
+h1 {
+  float: right;
+  margin: 2rem;
+  margin-right: 20rem;
+  font-size: 5rem;
+}
+</style>
