@@ -16,5 +16,9 @@ h1 {
   margin: 2rem;
   margin-right: 20rem;
   font-size: 5rem;
+  background: linear-gradient(to left, #38a4d3, #6c63ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 </style>
