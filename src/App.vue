@@ -1,9 +1,11 @@
 <template>
+  <Header />
   <Phone />
   <Monitor />
 </template>
 
 <script>
+import Header from "./components/Header.vue";
 import Phone from "./components/Phone.vue";
 import Monitor from "./components/Monitor.vue";
 
@@ -12,6 +14,7 @@ export default {
   components: {
     Phone,
     Monitor,
+    Header,
   },
 };
 </script>
