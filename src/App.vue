@@ -1,14 +1,17 @@
 <template>
   <Phone />
+  <Monitor />
 </template>
 
 <script>
 import Phone from "./components/Phone.vue";
+import Monitor from "./components/Monitor.vue";
 
 export default {
   name: "App",
   components: {
     Phone,
+    Monitor,
   },
 };
 </script>
