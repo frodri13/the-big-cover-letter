@@ -384,12 +384,17 @@
       </linearGradient>
     </defs>
   </svg>
-  <video width="385" height="255" controls src="../assets/video.mp4"></video>
+  <Video />
 </template>
 
 <script>
+import Video from "./Video.vue";
+
 export default {
   name: "Monitor",
+  components: {
+    Video,
+  },
 };
 </script>
 
@@ -398,12 +403,5 @@ svg {
   height: 70vh;
   margin-top: 8rem;
   z-index: -1;
-}
-video {
-  float: right;
-  z-index: 5;
-  position: absolute;
-  top: 19vh;
-  right: 33vh;
 }
 </style>
