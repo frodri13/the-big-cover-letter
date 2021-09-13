@@ -384,7 +384,7 @@
       </linearGradient>
     </defs>
   </svg>
-  <Video />
+  <Video video_name="video.mp4" />
 </template>
 
 <script>
