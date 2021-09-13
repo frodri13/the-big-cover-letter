@@ -384,7 +384,7 @@
       </linearGradient>
     </defs>
   </svg>
-  <Video video_name="video.mp4" />
+  <Video :video_name="video" />
 </template>
 
 <script>
@@ -392,6 +392,9 @@ import Video from "./Video.vue";
 
 export default {
   name: "Monitor",
+  props: {
+    video: String,
+  },
   components: {
     Video,
   },

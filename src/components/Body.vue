@@ -4,7 +4,7 @@
       <Phone />
     </div>
     <div class="container">
-      <Monitor />
+      <Monitor video="video.mp4" />
     </div>
   </div>
 </template>
