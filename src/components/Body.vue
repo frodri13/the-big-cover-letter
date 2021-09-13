@@ -3,7 +3,7 @@
     <div>
       <Phone />
     </div>
-    <div>
+    <div class="container">
       <Monitor />
     </div>
   </div>
@@ -27,5 +27,8 @@ div {
   display: flex;
   height: 90vh;
   width: 100vh;
+}
+.container {
+  position: relative;
 }
 </style>
