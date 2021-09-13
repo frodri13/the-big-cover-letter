@@ -1,6 +1,8 @@
 <template>
   <header>
-    <h1>The Big Cover Letter</h1>
+    <a href="https://www.youtube.com/watch?v=S_xDfnYYjGs" target="_blank">
+      <h1>The Big Cover Letter Video</h1></a
+    >
   </header>
 </template>
 
