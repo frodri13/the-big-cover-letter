@@ -1,5 +1,5 @@
 <template>
-  <video width="385" height="255" controls>
+  <video width="383" height="220" controls>
     <source :src="resolve_img_url(video_name)" />
   </video>
 </template>
@@ -24,7 +24,7 @@ video {
   float: right;
   z-index: 5;
   position: absolute;
-  top: 19vh;
+  top: 25vh;
   right: 33vh;
 }
 </style>
