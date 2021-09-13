@@ -23,8 +23,6 @@ export default {
     btnClicked(e) {
       if (e == "btn-1") {
         console.log(this.videoName);
-        this.videoName = "video2.mp4";
-        console.log(this.videoName);
       }
     },
   },
