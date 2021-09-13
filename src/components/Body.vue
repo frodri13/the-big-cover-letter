@@ -1,10 +1,10 @@
 <template>
   <div>
     <div>
-      <Phone />
+      <Phone @phoneKey="btnClicked" />
     </div>
     <div class="container">
-      <Monitor video="video.mp4" />
+      <Monitor :video="videoName" />
     </div>
   </div>
 </template>
@@ -18,6 +18,20 @@ export default {
   components: {
     Phone,
     Monitor,
+  },
+  methods: {
+    btnClicked(e) {
+      if (e == "btn-1") {
+        console.log(this.videoName);
+        this.videoName = "video2.mp4";
+        console.log(this.videoName);
+      }
+    },
+  },
+  data() {
+    return {
+      videoName: "video1.mp4",
+    };
   },
 };
 </script>

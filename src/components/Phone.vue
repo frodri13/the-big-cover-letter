@@ -268,7 +268,7 @@ export default {
   name: "Phone",
   methods: {
     sequenceInAction(e) {
-      console.log(e.path[0].id);
+      this.$emit("phoneKey", e.path[0].id);
     },
   },
 };
